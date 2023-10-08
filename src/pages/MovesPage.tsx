@@ -1,5 +1,5 @@
 import MovesContent from "../components/MovesContent";
-import Header from "../components/header";
+import Header from "../components/Header";
 
 const MovesPage = () => {
   return (

@@ -1,5 +1,5 @@
 import SignIn from "../components/SignIn";
-import Header from "../components/header";
+import Header from "../components/Header";
 
 const SignInPage = () => {
   return (

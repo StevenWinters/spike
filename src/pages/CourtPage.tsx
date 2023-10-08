@@ -1,5 +1,5 @@
 import CourtContent from "../components/CourtContent";
-import Header from "../components/header";
+import Header from "../components/Header";
 
 const CourtPage = () => {
   return (

@@ -1,5 +1,5 @@
 import RulesContent from "../components/RulesContent";
-import Header from "../components/header";
+import Header from "../components/Header";
 
 const RulesPage = () => {
   return (

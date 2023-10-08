@@ -1,5 +1,5 @@
 import HistoryContent from "../components/HistoryContent";
-import Header from "../components/header";
+import Header from "../components/Header";
 
 const HistoryPage = () => {
   return (

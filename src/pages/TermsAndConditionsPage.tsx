@@ -1,5 +1,5 @@
 import TermsAndConditions from "../components/TermsAndConditions";
-import Header from "../components/header";
+import Header from "../components/Header";
 
 const TermsAndConditionsPage = () => {
   return (
