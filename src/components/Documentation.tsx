@@ -1,5 +1,5 @@
 import Video from "./Video";
-import Documentation1 from "../assets/documentation/videos/documentation-vid-1.mp4";
+import DocumentationVideo1 from "../assets/documentation/videos/documentation-vid-1.mp4";
 import Tetris from "../assets/documentation/videos/tetris.mp4";
 
 const Documentation = () => {
@@ -14,7 +14,7 @@ const Documentation = () => {
               images.
             </p>
           </div>
-          <Video src={Documentation1} className="video--500" />
+          <Video src={DocumentationVideo1} className="video--500" />
         </div>
       </section>
       <section className="block">

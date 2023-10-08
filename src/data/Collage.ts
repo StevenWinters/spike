@@ -1,9 +1,10 @@
 import NotSunny from "../assets/documentation/pictures/fs-not-sunny.png";
+import DocumentationPicture1 from "../assets/documentation/pictures/documentation-pic-1.jpg";
 
 export const collage = [
   {
     id: 1,
-    image: NotSunny,
+    image: DocumentationPicture1,
     heading: "Documentation 1",
     alt: "Documentation 1",
   },
