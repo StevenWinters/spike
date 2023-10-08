@@ -2,7 +2,7 @@ import { features } from "../data/Features";
 
 const Features = () => {
   return (
-    <section className="block container">
+    <section className="block container features">
       <h2>Features</h2>
       {features.map((feature) => (
         <article

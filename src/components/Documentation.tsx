@@ -1,5 +1,6 @@
 import Video from "./Video";
-import Tetris from "../assets/tetris.mp4";
+import Documentation1 from "../assets/documentation/videos/documentation-vid-1.mp4";
+import Tetris from "../assets/documentation/videos/tetris.mp4";
 
 const Documentation = () => {
   return (
@@ -13,7 +14,7 @@ const Documentation = () => {
               images.
             </p>
           </div>
-          <Video src={Tetris} className="video--500" />
+          <Video src={Documentation1} className="video--500" />
         </div>
       </section>
       <section className="block">

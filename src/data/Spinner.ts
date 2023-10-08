@@ -1,5 +1,5 @@
-import Spinner1 from "../assets/FS not sunny.png";
-import Spinner2 from "../assets/TPT2 dragon.png";
+import Spinner1 from "../assets/documentation/pictures/fs-not-sunny.png";
+import Spinner2 from "../assets/documentation/pictures/tpt2-dragon.png";
 
 export const spinnerOne = [
   {

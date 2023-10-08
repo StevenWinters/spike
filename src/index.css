@@ -218,6 +218,13 @@ label a {
   max-width: 500px;
 }
 
+@media screen and (max-width: 500px) {
+  .hero .img,
+  .features .img {
+    max-width: 150px;
+  }
+}
+
 /* VIDEOS */
 
 .video {

@@ -1,4 +1,4 @@
-import NotSunny from "../assets/FS not sunny.png";
+import NotSunny from "../assets/documentation/pictures/fs-not-sunny.png";
 
 export const collage = [
   {
