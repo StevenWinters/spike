@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { HashLink } from "react-router-hash-link";
 
 interface Links {
   id: number;
@@ -19,9 +20,9 @@ const Content = ({ children, contentLinks, referenceLinks, id }: Props) => {
       <aside className="flex flex--column content__side">
         <h4>Table Of Content</h4>
         {contentLinks.map((link) => (
-          <a key={link.id} href={link.path}>
+          <HashLink key={link.id} to={link.path}>
             {link.name}
-          </a>
+          </HashLink>
         ))}
       </aside>
       <main id={id} className="content__container">
