@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Collage from "../components/Collage";
 import Documentation from "../components/Documentation";
 import Spinner from "../components/Spinner";
@@ -9,6 +9,9 @@ const DocumentationPage = () => {
   const [figure, setFigure] = useState("");
   const [toggleFigure, setToggleFigure] = useState(false);
 
+  useEffect(() => {
+    document.title = "Spike! | Documentation";
+  });
   return (
     <>
       {toggleFigure && (

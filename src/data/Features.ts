@@ -1,45 +1,27 @@
 export const features = [
   {
     id: 1,
-    heading: "Feature 1",
+    heading: "Skill-Oriented",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cum accusantium numquam libero porro optio laudantium velit id, voluptatibus mollitia?",
+      "This sport incorporates a variety of skills, including serving, passing, setting, spiking and blocking, making it appealing to people of varying athletic abilities.",
     image:
       "https://i.pinimg.com/originals/c3/00/b0/c300b030fbe70005ae8b14768521a26d.png",
     alt: "Feature 1 Image",
   },
   {
     id: 2,
-    heading: "Feature 1",
+    heading: "Free for All Ages",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cum accusantium numquam libero porro optio laudantium velit id, voluptatibus mollitia?",
+      "Volleyball can be played at a variety of skill levels and is inclusive, welcoming players of all ages, genders and sizes.",
     image:
       "https://i.pinimg.com/originals/c3/00/b0/c300b030fbe70005ae8b14768521a26d.png",
     alt: "Feature 1 Image",
   },
   {
     id: 3,
-    heading: "Feature 1",
+    heading: "Better Health and Fitness",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cum accusantium numquam libero porro optio laudantium velit id, voluptatibus mollitia?",
-    image:
-      "https://i.pinimg.com/originals/c3/00/b0/c300b030fbe70005ae8b14768521a26d.png",
-    alt: "Feature 1 Image",
-  },
-  {
-    id: 4,
-    heading: "Feature 1",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cum accusantium numquam libero porro optio laudantium velit id, voluptatibus mollitia?",
-    image:
-      "https://i.pinimg.com/originals/c3/00/b0/c300b030fbe70005ae8b14768521a26d.png",
-    alt: "Feature 1 Image",
-  },
-  {
-    id: 5,
-    heading: "Feature 1",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam cum accusantium numquam libero porro optio laudantium velit id, voluptatibus mollitia?",
+      "Volleyball is a physically demanding sport, enhancing physical strength and health. It's a great way to stay active and improve coordination and agility",
     image:
       "https://i.pinimg.com/originals/c3/00/b0/c300b030fbe70005ae8b14768521a26d.png",
     alt: "Feature 1 Image",

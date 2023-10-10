@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import Button from "../components/Button";
 
 const ErrorPage = () => {
+  useEffect(() => {
+    document.title = "Spike! | Error";
+  });
   return (
     <section className="flex flex--column justify--center align--center error">
       <h1>404</h1>

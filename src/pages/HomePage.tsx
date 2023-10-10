@@ -4,7 +4,8 @@ import Hero from "../components/Hero";
 
 const HomePage = () => {
   useEffect(() => {
-    document.title = "Spike! | Home";
+    document.title =
+      "Spike! | The Ultimate Documentation for Volleyball Lovers";
   });
   return (
     <main>
