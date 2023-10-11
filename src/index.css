@@ -238,8 +238,7 @@ label a {
 }
 
 .video__container {
-  overflow: scroll;
-  overflow-y: hidden;
+  overflow: auto;
   padding: 2rem;
 }
 
@@ -592,9 +591,14 @@ label a {
 .collage__container,
 .spinner__container {
   max-width: 500px;
+  max-height: 280px;
   overflow: hidden;
   position: relative;
   cursor: pointer;
+}
+
+.spinner__container {
+  margin: 0 2rem;
 }
 
 .collage__container:hover .collage__overlay,

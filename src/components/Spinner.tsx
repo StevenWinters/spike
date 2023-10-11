@@ -18,12 +18,16 @@ const Spinner = ({ onSetFigure, onSetToggleFigure }: Props) => {
         {spinnerOne.map((spinner) => (
           <figure
             key={spinner.id}
-            className="spinner__container"
+            className="flex justify--center align--center spinner__container"
             onClick={(e: any) => displayImageOverlay(e)}
           >
-            <img src={spinner.image} alt={spinner.alt} className="img" />
+            <img
+              src={spinner.image}
+              alt="Documentation of Volleyball Picture"
+              className="img"
+            />
             <div className="flex justify--center align--center collage__overlay">
-              <h3>{spinner.heading}</h3>
+              <h3>View Picture</h3>
             </div>
           </figure>
         ))}
@@ -32,12 +36,16 @@ const Spinner = ({ onSetFigure, onSetToggleFigure }: Props) => {
         {spinnerTwo.map((spinner) => (
           <figure
             key={spinner.id}
-            className="spinner__container"
+            className="flex justify--center align--center spinner__container"
             onClick={(e: any) => displayImageOverlay(e)}
           >
-            <img src={spinner.image} alt={spinner.alt} className="img" />
+            <img
+              src={spinner.image}
+              alt="Documentation of Volleyball Picture"
+              className="img"
+            />
             <div className="flex justify--center align--center collage__overlay">
-              <h3>{spinner.heading}</h3>
+              <h3>View Picture</h3>
             </div>
           </figure>
         ))}

@@ -1,59 +1,48 @@
-import NotSunny from "../assets/documentation/pictures/fs-not-sunny.png";
-import DocumentationPicture1 from "../assets/documentation/pictures/documentation-pic-1.jpg";
+import DocumentationPicture1 from "../assets/documentation/pictures/documentation-picture-1.jpg";
+import DocumentationPicture2 from "../assets/documentation/pictures/documentation-picture-2.jpg";
+import DocumentationPicture3 from "../assets/documentation/pictures/documentation-picture-3.jpg";
+import DocumentationPicture4 from "../assets/documentation/pictures/documentation-picture-4.jpg";
+import DocumentationPicture5 from "../assets/documentation/pictures/documentation-picture-5.jpg";
+import DocumentationPicture6 from "../assets/documentation/pictures/documentation-picture-6.jpg";
+import DocumentationPicture7 from "../assets/documentation/pictures/documentation-picture-7.jpg";
+import DocumentationPicture8 from "../assets/documentation/pictures/documentation-picture-8.jpg";
+import DocumentationPicture9 from "../assets/documentation/pictures/documentation-picture-9.jpg";
 
 export const collage = [
   {
     id: 1,
     image: DocumentationPicture1,
-    heading: "Documentation 1",
-    alt: "Documentation 1",
   },
   {
     id: 2,
-    image: NotSunny,
-    heading: "Documentation 2",
-    alt: "Documentation 2",
+    image: DocumentationPicture2,
   },
   {
     id: 3,
-    image: NotSunny,
-    heading: "Documentation 3",
-    alt: "Documentation 3",
+    image: DocumentationPicture3,
   },
   {
     id: 4,
-    image: NotSunny,
-    heading: "Documentation 4",
-    alt: "Documentation 4",
+    image: DocumentationPicture4,
   },
   {
     id: 5,
-    image: NotSunny,
-    heading: "Documentation 5",
-    alt: "Documentation 5",
+    image: DocumentationPicture5,
   },
   {
     id: 6,
-    image: NotSunny,
-    heading: "Documentation 6",
-    alt: "Documentation 6",
+    image: DocumentationPicture6,
   },
   {
     id: 7,
-    image: NotSunny,
-    heading: "Documentation 7",
-    alt: "Documentation 7",
+    image: DocumentationPicture7,
   },
   {
     id: 8,
-    image: NotSunny,
-    heading: "Documentation 8",
-    alt: "Documentation 8",
+    image: DocumentationPicture8,
   },
   {
     id: 9,
-    image: NotSunny,
-    heading: "Documentation 9",
-    alt: "Documentation 9",
+    image: DocumentationPicture9,
   },
 ];

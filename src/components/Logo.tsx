@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import LogoImage from "../assets/logo/logo.png";
 
 interface Props {
   toggleMenu?: boolean;
@@ -8,7 +9,7 @@ const Logo = ({ toggleMenu }: Props) => {
   return (
     <Link to="/">
       <img
-        src="https://www.nicepng.com/png/full/189-1898242_volleyball-volleyball-logo.png"
+        src={LogoImage}
         alt="Spike Logo"
         className={`img img--logo ${toggleMenu && "active"}`}
       />

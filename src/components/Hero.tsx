@@ -7,9 +7,10 @@ const Hero = () => {
         <div className="hero__description">
           <h1>Spike!</h1>
           <p>
-            The Ultimate Magazine for Volleyball Lovers. Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Alias quo sunt corrupti saepe,
-            cupiditate omnis ad sapiente perferendis sint aliquam.
+            Whether you're a pro, casual player, or just a fan of this dynamic
+            sport, we've got you covered. DIve into a treasure of information on
+            rules, moves, history, and much more. So get ready to spike, set,
+            and serve your way through a volley of exciting content right here!
           </p>
           <Button link="/rules" type="accent">
             Learn More

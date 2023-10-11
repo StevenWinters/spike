@@ -18,12 +18,16 @@ const Collage = ({ onSetFigure, onSetToggleFigure }: Props) => {
         {collage.map((figure) => (
           <figure
             key={figure.id}
-            className="collage__container"
+            className="flex justify--center align--center collage__container"
             onClick={(e: any) => displayImageOverlay(e)}
           >
-            <img src={figure.image} alt={figure.alt} className="img" />
+            <img
+              src={figure.image}
+              alt="Documentation of Volleyball Picture"
+              className="img"
+            />
             <div className="flex flex--column justify--center align--center gap collage__overlay">
-              <h3>{figure.heading}</h3>
+              <h3>View Picture</h3>
             </div>
           </figure>
         ))}

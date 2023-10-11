@@ -1,6 +1,9 @@
 import Video from "./Video";
-import DocumentationVideo1 from "../assets/documentation/videos/documentation-vid-1.mp4";
-import Tetris from "../assets/documentation/videos/tetris.mp4";
+import DocumentationVideo1 from "../assets/documentation/videos/documentation-video-1.mp4";
+import DocumentationVideo2 from "../assets/documentation/videos/documentation-video-2.mp4";
+import DocumentationVideo3 from "../assets/documentation/videos/documentation-video-3.mp4";
+import DocumentationVideo4 from "../assets/documentation/videos/documentation-video-4.mp4";
+import DocumentationVideo5 from "../assets/documentation/videos/documentation-video-5.mp4";
 
 const Documentation = () => {
   return (
@@ -20,10 +23,10 @@ const Documentation = () => {
       <section className="block">
         <h2>Samples</h2>
         <div className="flex gap--lg video__container">
-          <Video src={Tetris} className="video--500" />
-          <Video src={Tetris} className="video--500" />
-          <Video src={Tetris} className="video--500" />
-          <Video src={Tetris} className="video--500" />
+          <Video src={DocumentationVideo2} className="video--500" />
+          <Video src={DocumentationVideo3} className="video--500" />
+          <Video src={DocumentationVideo4} className="video--500" />
+          <Video src={DocumentationVideo5} className="video--500" />
         </div>
       </section>
     </>
