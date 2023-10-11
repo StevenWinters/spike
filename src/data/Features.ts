@@ -12,7 +12,7 @@ export const features = [
   },
   {
     id: 2,
-    heading: "Free For All",
+    heading: "Accessible",
     description:
       "Volleyball can be played at a variety of skill levels and is inclusive, welcoming players of all ages, genders and sizes.",
     image:
