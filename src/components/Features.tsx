@@ -7,7 +7,7 @@ const Features = () => {
       {features.map((feature) => (
         <article
           key={feature.id}
-          className="grid grid--1x2 grid--center align--center feature"
+          className="grid grid--1x2 grid--center align--center gap feature"
         >
           <div className="feature__description">
             <h3>{feature.heading}</h3>
